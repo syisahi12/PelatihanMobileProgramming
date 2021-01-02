@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+<!--    TEXTVIEW UNTUK MENAMPILKAN TEXT-->
+<!--    layout width = lebar
+        layout high = tinggi
+        id digunakan untuk memberikan id setiap content
+        margin untuk mengatur jarak antar view
+        padding untuk mempertebal view
+        background untuk memberikan sebuah latar belakang pada view
+        size untuk ukuran
+        gravity untuk mengatur letak dalam view -->
+
+
+    <TextView
+        android:id="@+id/tv_create"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new account"
+        android:layout_margin="16dp"
+        android:textColor="@color/colorblue"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded" />
+
+    <!--IMAGE VIEW UNTUK MENAMPILKAN GAMBAR-->
+
+    <ImageView
+        android:id="@+id/loginlogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/amcclogo" />
+
+<!--    LINEARLAYOUT DIGUNAKAN UNTUK MENGARAHKAN CONTENT
+        SECARA VERTICAL (KEBAWAH)-->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--    TEXTVIEW UNTUK MENAMPILKAN TEXT-->
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tv_textuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+<!--        EDITTEXT DIGUNAKAN UNTUK MENAMPILKAN TEXT-->
+<!--        YANG DAPAT DIEDIT OLEH USER-->
+
+        <EditText
+            android:id="@+id/et_Inputusername"
+            android:background="@drawable/ic_corners"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="text"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            android:hint="Input username" />
+
+<!--     YUK BUAT UNTUK TEXTVIEW , EDIT TEXTNYA DAN BUTTON -->
+<!--        CARA NYA SAMA KAYAK DIATAS YA -->
+
+<!--        BERIKUR LANGKAHNYA..-->
+
+<!--        1. GUNAKAN TEXT VIEW UNTUK MENAMPILKAN TEXT PASSWORD-->
+
+
+<!--        2. GUNAKAN EDITTEXT UNTUK MENAMPILKAN TEXT YANG DAPAT DIEDIT OLEH USER-->
+
+
+<!--        3. GUNAKAN VIEW BUTTON UNTUK PINDAH ACTIVITY/HALAMAN -->
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
