@@ -7,6 +7,29 @@
 
 <!--   TAMPILKAN VIEW IMAGEVIEW DI TENGAH LAYOUT  MENGGUNAKAN-->
 <!--    LAYOUT LINEARLAYOUT-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/amcclogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMCC 2020"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
 
 <!--    langkah-langkahnya-->
 
